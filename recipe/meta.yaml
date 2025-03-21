@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sparsevctrs_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sparsevctrs/sparsevctrs_{{ version }}.tar.gz
-  sha256: 88c6290bf58fecb022c982ac02114f2a2f8bc697f4defcf24fba9e3c4ffaac52
+  sha256: b8792d1cca5f05783553302020bfcf873ef2793422e61ae57d053bbf46d769dc
 
 build:
   number: 0
